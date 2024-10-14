@@ -1,0 +1,109 @@
+body {
+    font-family: Jokerman, Arial;
+    line-height: 1.5;
+    margin: 0;
+    padding: 20px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border: 10px solid #4CAF50;
+}
+
+img {
+    width: 50%;
+    border: 8px solid #EAA5F5;
+    border-radius: 35%;
+}
+
+.letraNormal {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+u {
+    text-decoration-color: #4CAF50;
+}
+
+mark {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.fundoAquarela {
+    background-image: url('https://static.vecteezy.com/system/resources/previews/001/427/268/original/purple-watercolor-background-free-vector.jpg'); 
+}
+
+.corpoComAquarela {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.semFundo {
+    background-image: none;
+    border: none;
+    padding: 0;
+    background-color: transparent;    
+}
+
+.fundoCaracteristico {
+    background-image: url('Imagens/Fundo.png'); 
+}
+
+header {
+    background: rgba(75, 175, 80, 0.8);
+    color: white;
+    padding: 10px 0;
+    text-shadow: 2px 2px 4px black;
+}
+
+main {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+main a {
+    text-decoration: none;
+}
+
+label {
+    font-weight: bold;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.enviarParaPagamento {
+    background-color: #563772;
+    text-shadow: 2px 2px 4px #EAA5F5;
+}
+
+.enviarParaEmpresa {
+    border-radius: 50%;
+    background-color: #563772;
+    text-shadow: 2px 2px 4px #EAA5F5;
+    font-family: Jokerman, Arial;
+}
+
+footer {
+    padding: 10px 0;
+    background: rgba(75, 175, 80, 0.8);
+    color: white;
+    text-shadow: 2px 2px 4px black;
+}
+
+footer p, footer a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: inherit;
+}

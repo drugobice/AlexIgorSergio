@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="estilo.css"/>
+    <link rel="icon" href="Imagens/FACESG.png" type="image/png">
+</head>
+
+<body class="semFundo">
+
+    <header>
+        <h1 class="letraNormal">Digite abaixo para poder baixar</h1>
+    </header>
+
+    <main>
+        <form>
+            <label>Nome completo</label>
+            <br>
+            <input type="text" size=50px placeholder="Ex: Maria Silva" required>
+            <br><br>
+
+            <label>Seu e-mail</label>
+            <br>
+            <input type="email" size=50px placeholder="Ex: qwerty@hotmail.com.br" required>
+            <br><br>
+
+            <label>Confirme seu e-mail</label>
+            <br>
+            <input type="email" size=50px placeholder="Reescreva ele para sua segurança" required>
+            <br><br>
+
+            <label>Número para contato</label>
+            <br>
+            <input type="button" value="(Brasil) +55">
+            <input type="tel" placeholder="(DDD) 0123456789" maxlength="15" required>
+            <br><br>
+
+            <label>Escolha uma forma de pagamento</label>
+            <br>
+            <button type="button" class="formasPagamento">PIX</button>
+            <button type="button" class="formasPagamento">SumUP</button>
+            <button type="button" class="formasPagamento">Débito</button>
+            <br><br>
+
+            <input type="text" size=50px placeholder="Nome igual ao escrito" required>
+            <br>
+            <input type="text" size=15px maxlength="16" placeholder="Número do cartão" required>
+            <input type="password" size=15px placeholder="Senha" required>
+            <br>
+            <input type="text" size=5px maxlength="3" placeholder="CVV" required>
+            <input type="text" size=5px maxlength="5" placeholder="Validade" required>
+            <br><br>
+
+            <label>Cupom de desconto</label>
+            <br>
+            <input type="text">
+            <br><br>
+
+            <label>Quantidade desejada</label>
+            <br>
+            <input type="number" id="quantidade" value="1" min="1">
+            <br><br>
+
+            <a href="pagConcluido.html">
+                <button type="button">APERTE AQUI E FINALIZE SUA COMPRA</button>
+            </a>
+        </form>
+    </main>
+
+    <footer>
+        <a href="divulgacaoMurmurio.html">
+        <p>Página anterior</p>
+        </a>
+        |
+        <a href="empresa.html">
+        <p>Entrar em contato</p>
+        </a>
+    </footer>
+    
+</body>
+</html>
